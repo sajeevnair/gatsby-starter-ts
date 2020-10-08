@@ -5,9 +5,9 @@
  * See: https://www.gatsbyjs.com/docs/use-static-query/
  */
 
+import styled from "@emotion/styled"
 import { graphql, useStaticQuery } from "gatsby"
 import React, { ReactNode } from "react"
-import styled from "styled-components"
 import Header from "./header"
 import "./layout.css"
 

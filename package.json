@@ -1,13 +1,14 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Sajeev's Gatsby Starter with TS and emotion",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Sajeev Nair <sajeev.nair174@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.35",
+    "@emotion/styled": "^10.0.27",
     "@typescript-eslint/eslint-plugin": "^4.3.0",
     "@typescript-eslint/parser": "^4.3.0",
-    "babel-plugin-styled-components": "^1.11.1",
     "eslint": "^7.10.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-react": "^7.21.2",
@@ -25,8 +26,7 @@
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^6.1.0",
-    "react-is": "^16.13.1",
-    "styled-components": "^5.2.0"
+    "react-is": "^16.13.1"
   },
   "devDependencies": {
     "@types/node": "^14.11.2",
@@ -34,7 +34,6 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-helmet": "^6.1.0",
     "@types/react-is": "^16.7.1",
-    "@types/styled-components": "^5.1.3",
     "prettier": "2.1.1",
     "typescript": "^4.0.3"
   },
